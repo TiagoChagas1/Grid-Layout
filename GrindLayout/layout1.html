@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="#"
+    />
+    <link rel="stylesheet" href="#" />
+    <title>Grid 01</title>
+    <style>
+        main {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+  display: grid;
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6";
+  gap: 2vw;
+  justify-content: center;
+  align-content: center;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+
+section {
+  background-color: #c51f1f;
+  width: 30vw;
+  height: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3vw;
+}
+
+h2 {
+  font-size: 80px;
+  color: #58b147;
+}
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="item1"><h2>A</h2></section>
+      <section class="item2"><h2>B</h2></section>
+      <section class="item3"><h2>C</h2></section>
+      <section class="item4"><h2>D</h2></section>
+      <section class="item5"><h2>E</h2></section>
+      <section class="item6"><h2>F</h2></section>
+    </main>
+  </body>
+</html>

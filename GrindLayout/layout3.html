@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grid 03</title>
+  </head>
+  <style>
+    main {
+  background-color: beige;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "item1 item4 item7 item10"
+    "item2 item5 item8 item11"
+    "item3 item6 item9 item12";
+  justify-content: center;
+  align-content: center;
+  gap: 1.5%;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
+}
+.item9 {
+  grid-area: item9;
+}
+.item10 {
+  grid-area: item10;
+}
+.item11 {
+  grid-area: item11;
+}
+.item12 {
+  grid-area: item12;
+}
+
+section {
+  background-color: #808080;
+  width: 22vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vw;
+}
+
+h2 {
+  font-size: 60px;
+  color: yellow;
+}
+
+  </style>
+  <body>
+    <main>
+      <section class="item1"><h2>1</h2></section>
+      <section class="item2"><h2>2</h2></section>
+      <section class="item3"><h2>3</h2></section>
+      <section class="item4"><h2>4</h2></section>
+      <section class="item5"><h2>5</h2></section>
+      <section class="item6"><h2>6</h2></section>
+      <section class="item7"><h2>7</h2></section>
+      <section class="item8"><h2>8</h2></section>
+      <section class="item9"><h2>9</h2></section>
+      <section class="item10"><h2>10</h2></section>
+      <section class="item11"><h2>11</h2></section>
+      <section class="item12"><h2>12</h2></section>
+    </main>
+  </body>
+</html>
